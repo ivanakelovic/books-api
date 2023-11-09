@@ -1,0 +1,2 @@
+Otvoriti index.html u pretrazivacu i ukucati ime knjige koju zelite pronaci. 
+Na stranici se tada prikazuju rezultati pretrage.

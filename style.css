@@ -1,0 +1,88 @@
+body{
+    background-color: #98FB98;
+    background-image: url("knjige.jpeg");
+     background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+}
+
+.naslov{
+    margin-top: 5%;
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+}
+
+.div-naslov{
+    background-color: #FFC0CB;
+    color:#228B22;
+    padding: 20px;
+    border: 2px solid #FF69B4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#btn{
+    background-color: forestgreen;
+    color: #FFC0CB;
+}
+#searchResults{
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    overflow: auto;
+    max-height: 400px;
+    margin: 0 auto;
+}
+
+.div-container{
+    max-height: 400px;
+    overflow: auto;
+}
+
+.separator-box{
+    border: 1px solid forestgreen;
+    background-color: deeppink;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+}
+
+.book-container{
+    background-color: #77DD77;
+    border-radius: 10px;
+    border: 1px solid forestgreen;
+    visibility: visible;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: hotpink;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #77DD77;
+}
+
+
